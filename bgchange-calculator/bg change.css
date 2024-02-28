@@ -1,0 +1,84 @@
+body{
+    background-position:center ;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBik67Fz5MUC1y9rlG9w7h5MmeOXjUpSHgjw&usqp=CAU);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+
+}
+.ab{
+    text-align: center;
+    font-size: 42px;
+    font-weight: 900;
+}
+.ab h1{
+    font-size: 30px;
+}
+.box{
+    cursor: pointer;
+   padding: 5px 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    transition: 0.8s;
+}
+.box:hover{
+    border-radius: 50px;
+
+}
+#red{
+    background-color:red;
+}
+#yellow{
+    background-color: yellow;
+}
+#orange{
+    background-color: orange;
+}
+#green{
+    background-color: green;
+}
+#purple{
+    background-color: purple;
+}
+.cal-container{
+    margin-top: 20px;
+    width: 100%;
+    height: 100hv;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.calculater{
+    backdrop-filter: blur(10px);
+    background-color:transparent;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 30px;
+    
+}
+.calculater form input{
+    box-shadow: rgb(0, 0, 0) 4px 6px 7px;
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    margin: 2px;
+    border-radius: 100px;
+    font-weight: 900;
+    font-size: 25px;
+    border: 2px solid black;
+    background: transparent;
+}
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0px;
+}
+form .display input{
+    border-radius: 15px;
+    text-align: right;
+    flex: 1;
+}
